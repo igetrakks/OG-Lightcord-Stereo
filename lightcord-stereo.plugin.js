@@ -1,6 +1,6 @@
 //META{"name":"stereoSound"}*//
 
-function () {
+var stereoSound = function () {
 	let VoiceConnection = BDV2.WebpackModules.findByUniqueProperties(['getVoiceEngine']).getVoiceEngine().VoiceConnection;
 
 	class Stereo extends VoiceConnection {
